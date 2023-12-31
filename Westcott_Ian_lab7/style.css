@@ -1,0 +1,57 @@
+header {
+       margin: 0;
+       padding: 0;
+       text-align: center;
+}
+svg {
+       padding-right: 10px;
+       display: inline-block;
+}
+.inputdiv {
+       width: 100vw;
+     position: relative;
+
+       display: flex;
+       flex-flow: column wrap;
+       align-items: center;
+}
+div{
+       display: inline-block;
+}
+.main {
+       float: right;
+}
+.textinfo {
+       max-width: 875;
+}
+.legend { 
+       list-style: none;
+       display: inline-block;
+       text-align: center; 
+       display: flex;
+       justify-content: center
+}
+.legend li { 
+       float: left; margin-right: 10px; 
+}
+.legend span { 
+       border: 1px solid #ccc; 
+       float: left; 
+       width: 12px; 
+       height: 12px; 
+       margin: 2px; 
+       text-align: center; 
+}
+/*colors*/
+.legend .actor { background-color: #2299e1; }
+.legend .show { background-color: #45d617; }
+
+p {
+       display: flex;
+       align-items:center;
+       font-size: 20;
+}
+
+p.nodename {
+       font-size: 28;
+}
